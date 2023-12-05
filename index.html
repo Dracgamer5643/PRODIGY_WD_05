@@ -13,10 +13,36 @@
         <img src="https://i.pinimg.com/564x/cf/34/52/cf345255aba4b44de44f83e131817d86.jpg" alt="Image" class="img">
         <h1 class="head"><i class="fi fi-rr-cloud"></i>ADI Weather-App</h1>
         <div class="search-con">
-            <input type="text" id="search-box">
-            <button class="btn">Search</button>
+            <input id="city" type="text">
+            <button id="submit" class="btn">Search</button>
+        </div>
+    </div>
+
+    <h1 class="weather-head">Weather in <span id="cityName"></span></h1>
+
+    <div class="card-con">
+        <div class="card">
+            <h1>Humidity</h1>
+            <h3>Cloud PCT is <span id="cloud_pct"></span> %</h3>
+            <h3>Feels Like is <span id="feels_like"></span> %</h3>
+            <h3>Humidity is <span id="humidity"></span> %</h3>
+        </div>
+
+        <div class="card">
+            <h1>Temperature</h1>
+            <h3>Temperature is <span id="temp"></span>  ° C</h3>
+            <h3>Min Temperature is <span id="min_temp"></span> ° C</h3>
+            <h3>Max Temperature is <span id="max_temp"> ° C</h2>
+        </div>
+
+        <div class="card">
+            <h1>Wind/sunrise</h1>
+            <h3>Wind Speed is <span id="wind_speed"></span> Km/Hr</h3>
+            <h3>Wind Degree is <span id="wind_degrees"></span> Km/Hr</h3>
+            <h3>Sunrise is <span id="sunrise"></span> Km/Hr</h3>
+            <h3>Sunset is <span id="sunset"></span> Km/Hr</h3>
         </div>
     </div>
 </body>
-
+<script src="script.js"></script>
 </html>
